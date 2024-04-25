@@ -27,6 +27,6 @@
 #       "yes": yup
 #       enabled: "ON"
 
-en:
-  hello: "Hello world"
-  why?: "Because fuck you! That's why!"
+ru:
+  hi: "Приветствие"
+  what?: "Заглушка"
