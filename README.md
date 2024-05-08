@@ -45,14 +45,6 @@ List of real world entities:
   -Test Results
     Results of a user taking a test
     Could track score, time taken, questions correct/incorrect
-
-  -Categories
-    Tests can be organized into categories/groups
-  
-  -Some other entities that may make sense:
-    Roles - model for managing admin vs regular users
-    Test Versions - for tracking revisions of tests
-    Certificates - issued to users for passing
   
   -Key relationships:
     User has many Test Results
