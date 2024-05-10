@@ -24,7 +24,7 @@ About TestGuru application:
     - Базовое разграничение прав доступа. Чтоб была возможность создавать и управлять тестами только у админов тестов
     - Выполнение тестов
     - Публикация результатов тестов в соцсети
-
+#######################################################################
 List of real world entities:
   -Users
     Admin users who create/manage tests
@@ -33,6 +33,9 @@ List of real world entities:
   -Tests
     A test/quiz entity
     Has attributes like title, description, passing score etc
+
+  -Categories
+    Tests can be organized into categories/groups
 
   -Questions
     Individual questions that make up a test
@@ -45,8 +48,9 @@ List of real world entities:
   -Test Results
     Results of a user taking a test
     Could track score, time taken, questions correct/incorrect
-  
-  -Key relationships:
+#######################################################################
+
+Key relationships:
     User has many Test Results
     Test has many Questions
     Question has many Answers

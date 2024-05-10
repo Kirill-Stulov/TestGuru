@@ -1,3 +1,0 @@
-all static pages, which contains public info, are here
-important: файлы из public отдаются минуя контроллеры "как есть", т.е. без лэйаута
-это означает, что здесь должен быть полноценная html страница, которая открывается тегом <!DOCTYPE html> и содержит теги <html>, <head>, <body> и т.д.
