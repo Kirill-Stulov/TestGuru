@@ -27,6 +27,7 @@
 #       "yes": yup
 #       enabled: "ON"
 
+# !!! ru.yml file added for test
 ru:
   hi: "Приветствие"
   what?: "Заглушка"
