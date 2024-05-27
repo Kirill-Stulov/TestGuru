@@ -1,2 +1,6 @@
 # !!! done - app version
-APP_VERSION = '0.0.1'
+module TestGuru
+  class Application < Rails::Application
+    VERSION = '0.1.0'.freeze
+  end
+end
