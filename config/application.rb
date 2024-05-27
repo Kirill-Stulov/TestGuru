@@ -23,8 +23,8 @@ module TestGuru
 
     # !!! done timezone and switched to ru default locale
     # config.time_zone = "Central Time (US & Canada)"
-    config.time_zone = 'UTC'
-    config.active_record.default_timezone = :local
+    config.time_zone = 'Asia/Tashkent'
+    config.active_record.default_timezone = 'UTC'
     
     # permitted locales available for the application
     config.i18n.available_locales = %i[en ru uz]
