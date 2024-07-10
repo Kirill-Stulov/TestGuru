@@ -21,16 +21,16 @@ module TestGuru
     # These settings can be overridden in specific environments using the files
     # in config/environments, which are processed later.
 
+    # !!! done timezone and switched to ru default locale
     # config.time_zone = "Central Time (US & Canada)"
     config.time_zone = 'Asia/Tashkent'
-    config.active_record.default_timezone = :local
+    config.active_record.default_timezone = 'UTC'
     
     # permitted locales available for the application
     config.i18n.available_locales = %i[en ru uz]
 
-    # config default locale
+    # config default locale done
     config.i18n.default_locale = :ru
-    # config.i18n.default_locale = :uz
     # config.i18n.default_locale = :en
     
     # config.eager_load_paths << Rails.root.join("extras")
