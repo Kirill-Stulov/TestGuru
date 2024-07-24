@@ -63,6 +63,15 @@ group :development do
   # gem "spring"
 end
 
+group :development do
+  # Generates an Entity Relationship Diagram (ERD) for the Rails application.
+  # The ERD is a visual representation of the database schema, showing the relationships
+  # between the different models in the application.
+  # This gem is useful for understanding the structure of the database and
+  # how the different parts of the application interact with each other.
+  gem 'rails-erd'
+end
+
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
