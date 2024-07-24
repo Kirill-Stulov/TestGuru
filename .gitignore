@@ -37,3 +37,4 @@
 # Ignore the generated entity-relationship diagram (ERD) file.
 /erd.pdf
 /docs/erd.pdf
+/.erdconfig
