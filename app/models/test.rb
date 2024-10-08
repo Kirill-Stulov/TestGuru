@@ -1,9 +1,4 @@
 class Test < ApplicationRecord
-
-  # инстанс-метод в модели User, который принимает в качестве аргумента значение уровня
-  # сложности и возвращает список всех Тестов, которые проходит или когда-либо проходил Пользователь на этом уровне сложности
-  def user_test(level)
-  end
-
-
+  belongs_to :category
+  belongs_to :author, class_name: 'User'
 end
