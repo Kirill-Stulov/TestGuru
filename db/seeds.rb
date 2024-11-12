@@ -35,3 +35,4 @@ Answer.find_or_create_by!(body: 'Multiple Virtual Comp', correct: false, questio
 UserTest.find_or_create_by!(status: 'completed', user: john, test: ruby_test)
 UserTest.find_or_create_by!(status: 'in_progress', user: jane, test: rails_test)
 UserTest.find_or_create_by!(status: 'completed', user: john, test: ruby_test2)
+UserTest.find_or_create_by!(status: 'in_progress', user: john, test: rails_test)
