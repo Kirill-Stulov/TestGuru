@@ -20,6 +20,8 @@ jane = User.find_or_create_by!(name: 'Jane', email: 'jane@smth.com')
 ruby_test = Test.find_or_create_by!(title: 'Ruby Basics', level: 1, category: programming, author: john)
 rails_test = Test.find_or_create_by!(title: 'Rails Fundamentals', level: 1, category: web_dev, author: jane)
 ruby_test2 = Test.find_or_create_by!(title: 'Ruby Advanced', level: 2, category: programming, author: john)
+ruby_test3 = Test.find_or_create_by!(title: 'Ruby Advanced 2', level: 2, category: programming, author: john)
+
 
 # Create questions
 q1 = Question.find_or_create_by!(body: 'What is instance method in Ruby?', test: ruby_test)
